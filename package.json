@@ -17,12 +17,13 @@
   },
   "directories": {
     "example": "example/",
-    "bin": "bin/",
-    "test": "test/",
-    "doc": "docs/",
-    "lib": "lib/"
+    "bin": "/bin/",
+    "test": "/test/",
+    "doc": "/docs/",
+    "lib": "/lib/",
+    "man": "/man/",
+    "build": "build/"
   },
   "readme": "README.md",
-  "dependencies": {},
-  "publishConfig": { "registry": "" }
+  "dependencies": {}
 }
