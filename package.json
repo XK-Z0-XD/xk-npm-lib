@@ -11,7 +11,11 @@
   },
   "private": false,
   "license": "MIT",
-  "keywords": [ "xk-npm-lib", "xk Library", "xk lib" ],
+  "keywords": [
+    "xk-npm-lib",
+    "xk Library",
+    "xk lib"
+  ],
   "scripts": {
     "test": "hello_world"
   },
@@ -24,13 +28,12 @@
     "man": "/man/",
     "build": "build/"
   },
-
   "readme": "README.md",
   "homepage": "https://github.com/XK-Z0-XD/xk-npm-lib#readme",
   "bugs": {
-    "url": "https://github.com/XK-Z0-XD/xk-npm-lib/issues",
+    "url": "https://github.com/XK-Z0-XD/xk-npm-lib/issues"
   },
-
-  "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "commonjs": "^0.0.1"
+  }
 }
