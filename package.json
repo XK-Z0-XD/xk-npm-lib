@@ -1,0 +1,28 @@
+{
+  "name": "xk-npm-lib",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "xk-npm-lib",
+  "main": "app.js",
+  "author": "xk-z0-xd eVmPr0gramm1ng@outlook.com https://github.com/XK-Z0-XD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XK-Z0-XD/xk-npm-lib.git"
+  },
+  "private": false,
+  "license": "MIT",
+  "keywords": [ "xk-npm-lib", "xk Library", "xk lib" ],
+  "scripts": {
+    "test": "hello_world"
+  },
+  "directories": {
+    "example": "example/",
+    "bin": "bin/",
+    "test": "test/",
+    "doc": "docs/",
+    "lib": "lib/"
+  },
+  "readme": "README.md",
+  "dependencies": {},
+  "publishConfig": { "registry": "" }
+}
