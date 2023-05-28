@@ -45,5 +45,11 @@ class Person {
 
     }
 }
+class Journal {
+
+}
+class JournalPage {
+
+}
 module.id = "my_classes";
 export { Location, User, Person };
