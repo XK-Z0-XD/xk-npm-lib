@@ -8,17 +8,14 @@
 *
 */
 
-/*FONT FACES*/
-@font-face {
-    font-family: "VT323";
-    src: url("fonts/VT323/VT323-Regular.ttf") format('truetype');
-}
-
-
+@import url("../variables.css");
 /* themes */
+body {
+}
 
 .terminal {
     display: block;
+    font-family: var(--tf-default);
 }
 
     .terminal .containter {
@@ -40,4 +37,11 @@
 }
 
 .blue {
+}
+
+.terminal .msg-box {
+}
+
+.terminal #error {
+    border: 1px solid
 }

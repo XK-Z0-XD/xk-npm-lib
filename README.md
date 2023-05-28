@@ -29,11 +29,7 @@ The Following File Types
 - javascript 
 ##  Documentation/ Markdown files
 
-- [`doc`](./docs/README.md)
-- [`change log`](./docs/CHANGELOG.md)
-- [`To do list`](./docs/TODO.md)
 - [`SECURITY POLICY`](SECURITY.md)
-- [`themes`](./docs/themes.md)
 
 #   Features
 

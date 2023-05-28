@@ -1,3 +1,6 @@
 /xk-npm-lib.njsproj
 /node_modules
 /xk-npm-lib.njsproj.user
+/obj/Debug/
+/src/styles/fonts/Terminal_Grotesque
+/src/styles/fonts/*.txt
