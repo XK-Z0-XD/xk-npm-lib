@@ -26,13 +26,10 @@ const def_msg_type = {
  * */
 class GuiWindow {
     constructor(window_type, options) {
-        let {
-            Title = "Window",
-            Draggable = false;
 
     }
 }
-}
+
 /**
  * Creates a Gui Popup box 
  * Message box (1) appears Green

@@ -1,0 +1,2 @@
+D:\git\XK-Z0-XD\xk-npm-lib\xk-npm-lib\obj\Debug\xk-npm-lib.njsproj.CoreCompileInputs.cache
+D:\git\XK-Z0-XD\xk-npm-lib\xk-npm-lib\bin\Microsoft.NodejsTools.WebRole.dll

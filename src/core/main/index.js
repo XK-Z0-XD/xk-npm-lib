@@ -36,7 +36,14 @@ class User {
     }
 }
 class Person {
+    constructor() {
+        this.pid = 0;
+        this.fname = "";
+        this.lname = "";
+        this.mid_init = "";
+        this.dob = "";
 
+    }
 }
 module.id = "my_classes";
-module.exports = { Location, User, Person };
+export { Location, User, Person };

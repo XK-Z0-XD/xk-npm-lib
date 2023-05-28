@@ -1,4 +1,5 @@
 #   Main Workflow
 ##  Permissions
-- read content
-- read content
+- read contents
+- Read Depencensies
+- 
