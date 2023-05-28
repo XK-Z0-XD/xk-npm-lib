@@ -34,7 +34,10 @@
     "@nodelib/fs.walk": "^1.2.8",
     "async": "^3.2.4",
     "commonjs": "^0.0.1",
+    "graph": "^0.2.0",
     "jquery": "^3.7.0",
-    "node-nmap": "^4.0.0"
+    "node-nmap": "^4.0.0",
+    "phaser": "^3.60.0",
+    "sass": "^1.62.1"
   }
 }

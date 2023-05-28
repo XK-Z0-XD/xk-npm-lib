@@ -34,6 +34,26 @@
     src: url("./fonts/uwch.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: fa-brands-400;
+    src: url('fonts/fa-brands-400.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: fa-solid-900;
+    src: url('fonts/fa-solid-900.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: fa-regular-400;
+    src: url('fonts/fa-regular-400.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: fa-v4compatibility;
+    src: url('fonts/fa-v4compatibility.ttf') format('truetype');
+}
+
 :root {
     /*  --tf-default: Courier New, Courier, monospace;
     --t-caret: "\2588";
@@ -47,12 +67,14 @@
 }
 
     :root .terminal {
-        --green-b: #114811;
-        --green-f: #00ff64;
-        --red-b: #5e0302;
-        --red-f: #f01914;
-        --blue-b: #3c3cff;
-        --blue-f: #64c8ff;
+        --def-terminal-b: #000000;
+        --def-term-f: #ffffff;
+        --terminal-green-b: #114811;
+        --terminal-green-f: #00ff64;
+        --terminal-red-b: #5e0302;
+        --terminal-red-f: #f01914;
+        --terminal-blue-b: #3c3cff;
+        --terminal-blue-f: #64c8ff;
         --tf-default: Courier New, Courier, monospace;
         --t-caret: "\2588";
         --start: ">";
