@@ -1,4 +1,4 @@
-<p== align="center">
+<p align="center">
 <img src="./docs/_media/icon.png"  alt="XK-Z0-XD">
 <p>
 
@@ -46,6 +46,7 @@ Repository:
 | jsx files | jsx|
 | stylesheets | .css|
 | icons/images| .ico, .png, .jpg .gif|
+| font files  | .ttf, .otf |
 
 ##  Modules:
 Most of this is for the front-end.
