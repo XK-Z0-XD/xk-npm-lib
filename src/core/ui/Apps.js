@@ -6,7 +6,12 @@
  *
  *
  */
-const default_options = {
+/*Default options */
+const opt = {
+    width = 25,
+    height = 25,
+    back_color = '#000',
+    border = { color = '', thickness= 5 }
 
 };
 class App {
@@ -18,3 +23,11 @@ class App {
     }
 
 }
+
+var gui_app = {
+    new_window = function (title, options) {
+
+    },
+
+};
+export { App, gui_app };

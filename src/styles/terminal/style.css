@@ -65,3 +65,18 @@
     .terminal #error {
         border: 1px solid
     }
+    /*Terminal Themes*/
+    .terminal .red {
+        --color: var(--terminal-red-f);
+        --bg: var(--terminal-red-b);
+    }
+
+    .terminal .blue {
+        --color: var(--terminal-blue-f);
+        --bg: var(--terminal-blue-b);
+    }
+
+    .terminal .green {
+        --color: var(--terminal-green-f);
+        --bg: var(--terminal-green-b);
+    }

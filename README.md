@@ -1,35 +1,62 @@
-<p align="center">
+<p== align="center">
 <img src="./docs/_media/icon.png"  alt="XK-Z0-XD">
 <p>
 
 <p align="center">
-    a NodeJS toolbox.
+    a NodeJS toolbox, that contains gui utilities and other functions.
 </p>
 
 # xk-npm-lib
-This nodejs repo is for storing javascript modules and other files. 
+This nodejs repo is for storing my javascript modules and other files. 
+
+Note:
+> This package is still ==W.I.P.== So some of the modules or the packge itself may not work properly.
+> I am just using this to store some of the modules/functions and css styles that I might use later.
+> I also just use this for messing with new things and for practice.
+> if you want to mess with this that is fine:
+> If you have any ideas on what you think should be added or talked about then
+> go to the discussion link below. I may not update this repo often.
 #   Links
+Documentation:
+
 [`documentation`](./docs/README.md)
+
+[`TODO List`](./docs/TODO.md)
+
+[`Version History`](HISTORY.md)
+
+[`SECURITY POLICY`](SECURITY.md)
+
+[`package`](https://www.npmjs.com/package/xk-npm-lib)
+
+Repository:
+
+[`github`](https://github.com/XK-Z0-XD/xk-npm-lib)
+
+[`discussions`](https://github.com/XK-Z0-XD/xk-npm-lib/discussions)
+
 ##  Contents
- 
-Contents of this library may include: 
+ these are the following filetypes that are/may be in this package:
 
-The Following File Types
-| type | ext |
-| ---- | --- |
-| css style sheets |.css|
-|javascript |.js|
-|Node.js ES Modules|.mjs|
-|Coffee Script|.coffee|
-|font files|.ttf, .otf|
-|         |         |
+|File type| ext |
+| ------- | --- |
+| javascript| .js|
+| data files | .json, .xml, .txt|
+|coffee script| .coffee|
+| jsx files | jsx|
+| stylesheets | .css|
+| icons/images| .ico, .png, .jpg .gif|
 
+##  Modules:
+Most of this is for the front-end.
 
-- css stylesheets
-- javascript 
-##  Documentation/ Markdown files
-
-- [`SECURITY POLICY`](SECURITY.md)
-
-#   Features
-
+### Core: 
+- util: contains scripts for utility purposes
+ - finance: contains functions for finances/economics
+- conv: functions for value conversions
+- calc: for calculations/ other
+- 
+##  Css Styles
+- Terminal Theme (Red Blue or Green)
+- Glitchy Theme (To be Implemented)
+- Futuristic (To be implemented)
