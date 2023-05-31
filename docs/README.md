@@ -3,6 +3,7 @@
 </p>
 
 # DOCUMENTATIONS
+
 ## Modules:
 Conversions:
 - Tempurature:
@@ -10,14 +11,21 @@ Conversions:
    - [ ] Celcius (2)
    - [ ] Kelvin (3)
    - [ ] Rankine (4)
-- Text:
+- Numbers:
   - [ ] (1) ASCII 
   - [ ] (2) Binary 
   - [ ] (3) Decimal
   - [ ] (4) Hexadecimal
+- Weight:
+  - [ ] (1) Gram 
+  - [ ] (2) ibs 
+  - [ ] (3) Decimal
+  - [ ] (4) Hexadecimal
 
-Weight:
-- 
+ui:
+| function | description |
+| -------- | ----------- |
+
 
 
 #   DOCUMENTATION

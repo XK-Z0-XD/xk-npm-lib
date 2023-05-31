@@ -1,9 +1,0 @@
-/**
- * financials modules:
- *
- *
- *
- *
- *
- *
- */

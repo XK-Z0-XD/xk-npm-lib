@@ -23,8 +23,9 @@
     "doc": "/docs",
     "lib": "/lib",
     "man": "/man",
-    "build": "build/"
+    "build": "/build"
   },
+
   "readme": "README.md",
   "homepage": "https://github.com/XK-Z0-XD/xk-npm-lib#readme",
   "bugs": {
@@ -39,5 +40,8 @@
     "node-nmap": "^4.0.0",
     "phaser": "^3.60.0",
     "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
   }
 }
