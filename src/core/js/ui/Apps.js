@@ -17,6 +17,8 @@ const opt = {
 class App {
     constructor(title) {
         this.appWindow = null;
+        this.title = title;
+        //TODO: Build Window
     }
     get_window() {
         return this.appWindow;

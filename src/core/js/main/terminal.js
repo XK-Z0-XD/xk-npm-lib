@@ -5,7 +5,7 @@
  */
 
 
-var terminal = {
+exports.terminal = {
     connect = function (json_file) {
         console.log(" Connect: TO BE IMPLEMENTED");
     },
@@ -21,5 +21,3 @@ var terminal = {
         logged_in = false,
     }
 };
-
-export { terminal };

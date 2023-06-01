@@ -32,13 +32,14 @@ exports.Loan = class {
     setTerm(_term) { this.term = _term; }
 
     isValid() {
-        valid = true;
-        if () {
-
-        }
-        return true;
+        var valid = true;
+        if (this.amount <= 0) { valid = false; this._error += "amount cannot be less than 0 \n"; }
+        if (this.rate <= 0) { valid = false; this._error += "rate cannot be less than 0 \n"; }
+        if (this.term <= 0) { valid = false; this._error += "term cannot be less than 0 \n"; }
+        return valid;
     }
-    buildLoan() {
+
+    build() {
 
     }
 }
