@@ -1,10 +1,15 @@
 import { error } from "jquery";
-
+/**
+ * 
+ * 
+ * 
+ * */
 /* MODULE */
-export static class temperature {
+export static class temp_conv {
+    /**@type const */
     constants = {
-        FAH = 1,
-        CEL = 2,
+        CEL = 1,
+        FAH = 2,
         KEL = 3,
         RAN = 4
     }
@@ -13,7 +18,8 @@ export static class temperature {
    * 
    * converconstants to celcuis
    * from: celcius (2) or kelvin (3)
-   * if value is invalid  returns
+   * if value is invalid function will throw an error
+   * 
    * @param {number} from
    * @param {number} value
    * @returns {number} cel
@@ -44,32 +50,30 @@ export static class temperature {
                 break;
 
         }
-        return cel
+        return celtoFixed(2);
     }
 
     /**
      * 
-     * @param {any} from
+     * @param {number} from
      * @param {number} value
      */
     fahrenheit = function (from, value) {
-        var fah = 0;
+        let fah = 0;
         switch (from) {
-            case constants.CEL:
-                if (kelvin(celsius) < 0) {
-                    console.error("temperature cannot be less than 0K");
-
-                } else {
-                    fah = (celsius * (9 / 5)) + 32;
-                }
-                ; break;
+            case constants.FAH:
+                /* if (kelvin(celsius) < 0) {
+                     console.error("temperature cannot be less than 0K");
+                 } else {
+                     fah = (celsius * (9 / 5)) + 32;
+                 }; break;*/
+                fah = (celsius * (9 / 5)) + 32;
             case constants.KEL:
-                fah = (value + 459.67) * (5 / 9);
-                ; break;
+                fah = (value + 459.67) * (5 / 9); break;
             case constants.RAN: fah = value - 459.67; break;
             default: console.error("Unknown Temperature Type"); break;
         }
-        return fah;
+        return fah.toFixed(2);
     }
     /**
      * converconstants temperature to kelvin
@@ -87,7 +91,7 @@ export static class temperature {
                 break;
             case constants.CEL:
                 if (value < 0) {
-                    // console.error("Temperature Value cannot be lower then 0 Kelvin");
+                    error("Temperature Value cannot be lower then 0 Kelvin");
                     kel = null;
                 } else { kel = value + 273.15; }
                 break;
@@ -104,7 +108,7 @@ export static class temperature {
          } else {
              return kel;
          }*/
-        return kel;
+        return keltoFixed(2);
     }
 
 
@@ -120,10 +124,11 @@ export static class temperature {
                 rankine = value + 459.67;
                 ; break;
             case constants.CEL:
+                rankine = (value + 273.15) * (9 / 5);
                 ; break;
             case constants.KEL:
                 if (value < 0) {
-
+                    error("value cannot be less than 0K");
                 } else {
                     rankine = value * (9 / 5);
                 }
@@ -133,9 +138,6 @@ export static class temperature {
                 break;
 
         }
-        return rankine;
+        return rankine.toFixed(2);
     }
 }
-
-
-exports.temperature;

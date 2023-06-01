@@ -1,0 +1,5 @@
+#!/bin/bash
+
+line = "hello world"
+
+echo line

@@ -11,11 +11,11 @@ const distvalue = {
 /**
  * @class Distance
  * */
-static class Distance {
+export static class Length {
     constants = {};
 
+    to_inches() {
 
+    }
 }
 
-module.exports = { Distance };
-export { Distance };

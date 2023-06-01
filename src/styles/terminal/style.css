@@ -18,6 +18,10 @@
 .info-theme {
 }
 
+.terminal-container {
+    display: block;
+}
+
 .terminal {
     display: block;
     font-family: VT323, var(--tf-default);
@@ -58,9 +62,11 @@
         }
 
 
-
+    /*  Terminal Message Box */
     .terminal .msg-box {
+        position: fixed;
     }
+
 
     .terminal #error {
         border: 1px solid

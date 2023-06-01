@@ -5,3 +5,6 @@
  */
 
 
+export static class vol_conv {
+
+}

@@ -1,7 +1,7 @@
 const { error } = require("jquery");
 
 
-exports.Annuity = class {
+export class Annuity {
     constructor(amount, rate, term) {
         this.amount = 0;
         this.rate = 0;
@@ -26,6 +26,7 @@ exports.Annuity = class {
     }
     build() {
         //TODO: BUILD ANNUITY
-        let bbal = 
+        log("Build: TO BE IMPLEMENTED");
     }
+
 }
