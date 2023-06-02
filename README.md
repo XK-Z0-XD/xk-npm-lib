@@ -6,7 +6,13 @@
     a NodeJS toolbox, that contains gui utilities and other functions.
 </p>
 
-![build status](https://github.com/XK-Z0-XD/xk-npm-lib/actions/workflows/main.yml/badge.svg)
+
+[![npm](https://img.shields.io/npm/v/xk-npm-lib)](https://www.npmjs.com/package/xk-npm-lib)
+![nodejs](https://github.com/XK-Z0-XD/xk-npm-lib/actions/workflows/test.yml/badge.svg)
+![codeql](https://github.com/XK-Z0-XD/xk-npm-lib/actions/workflows/codeql.yml/badge.svg)
+![publish](https://github.com/XK-Z0-XD/xk-npm-lib/actions/workflows/codeql.yml/badge.svg)
+
+
 
 # xk-npm-lib
 This nodejs repo is for storing my javascript modules and other files. 
