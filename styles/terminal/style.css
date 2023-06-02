@@ -18,9 +18,20 @@
 .info-theme {
 }
 
-.terminal-container {
+.term-container {
     display: block;
+    height: 100%;
+    width: 100%;
+    font-family: VT323, 'Code New Roman',Courier New, Courier, monospace;
+    background-color: rgb(0,0,0);
+    background-image: radial-gradient(rgba(0, 100, 0, 0.75), black 120%);
+    color: rgb(255,255,255);
 }
+
+    .term-container::after {
+        content: "";
+        background: repeating-linear-gradient( 0deg, rgba(black, 0.15), rgba(black, 0.15) 1px, transparent 3px, transparent 2px );
+    }
 
 .terminal {
     display: block;
@@ -71,6 +82,9 @@
     .terminal #error {
         border: 1px solid
     }
+
+    .terminal #scan {
+    }
     /*Terminal Themes*/
     .terminal .red {
         --color: var(--terminal-red-f);
@@ -86,3 +100,21 @@
         --color: var(--terminal-green-f);
         --bg: var(--terminal-green-b);
     }
+
+/* screen */
+#screen {
+}
+
+#screen-lines {
+    background-image: repeating-linear-gradient( 0deg, rgba(black, 0.15), rgba(black, 0.15) 1px, transparent 1px, transparent 2px );
+}
+
+#tool-bar {
+    border-top: 1px solid var(--terminal-green-f);
+    height: 25px;
+    display: inline-block;
+    bottom: 0;
+}
+
+/* typwriter */
+

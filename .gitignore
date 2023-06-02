@@ -2,5 +2,8 @@
 /node_modules
 /xk-npm-lib.njsproj.user
 /obj/Debug/
-/src/styles/fonts/Terminal_Grotesque
-/src/styles/fonts/*.txt
+/styles/fonts/Terminal_Grotesque
+/styles/fonts/*.txt
+*.njsproj.user
+*.njsproj
+*.zip

@@ -1,10 +1,12 @@
 <p align="center">
-<img src="./docs/_media/icon.png"  alt="XK-Z0-XD">
+<img src="./docs/_media/favicon.gif"  alt="XK-Z0-XD">
 <p>
 
 <p align="center">
     a NodeJS toolbox, that contains gui utilities and other functions.
 </p>
+
+![build status](https://github.com/XK-Z0-XD/xk-npm-lib/actions/workflows/main.yml/badge.svg)
 
 # xk-npm-lib
 This nodejs repo is for storing my javascript modules and other files. 
@@ -58,6 +60,8 @@ Most of this is for the front-end.
 - calc: for calculations/ other
 - 
 ##  Css Styles
+I will sotre some of my favorite css styles/ themes 
+in this package
 - Terminal Theme (Red Blue or Green)
 - Glitchy Theme (To be Implemented)
 - Futuristic (To be implemented)

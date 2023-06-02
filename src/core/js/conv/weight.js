@@ -5,7 +5,7 @@
  */
 
 //var weight = {}
-static class weight {
+export static class Weight {
     constants = {
         GRAMS = 1, lbs = 2,
     };

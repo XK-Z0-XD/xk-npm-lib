@@ -2,7 +2,7 @@
   "name": "xk-npm-lib",
   "type": "module",
   "version": "0.0.3",
-  "description": "xk-npm-lib",
+  "description": "xk-npm-lib. This packages will be used to store my styles, js modules, and other resources that I might use in other projects. \n",
   "main": "app.js",
   "author": "xk-z0-xd eVmPr0gramm1ng@outlook.com https://github.com/XK-Z0-XD",
   "repository": {

@@ -1,9 +1,9 @@
 name: 'Build & Test'
 on:
   push:
-    branches: [ "dev" ]
+    branches: [  dev ]
   pull_request:
-    branches: [ "dev" ]
+    branches: [  dev ]
 permissions:
     contents: read
     issues: read
@@ -11,6 +11,3 @@ permissions:
 
 
 jobs:
-  build:
-    
-    runs-on: ubuntu-latest

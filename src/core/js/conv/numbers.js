@@ -22,6 +22,7 @@ export static class num_conv {
      * 
      * @param {number} from
      * @param {number} value
+     * 
      */
     to_bin = function (from, value) {
         let output = null;

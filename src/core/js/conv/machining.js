@@ -2,3 +2,4 @@
  *
  *
  */
+module.id = "machining";

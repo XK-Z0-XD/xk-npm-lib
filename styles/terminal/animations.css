@@ -1,0 +1,17 @@
+/**
+    animations.css
+
+
+
+*/
+@import url("../variables.css");
+
+@keyframes typewrite {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
