@@ -10,8 +10,7 @@
 [![npm](https://img.shields.io/npm/v/xk-npm-lib)](https://www.npmjs.com/package/xk-npm-lib)
 ![nodejs](https://github.com/XK-Z0-XD/xk-npm-lib/actions/workflows/test.yml/badge.svg)
 ![codeql](https://github.com/XK-Z0-XD/xk-npm-lib/actions/workflows/codeql.yml/badge.svg)
-![publish](https://github.com/XK-Z0-XD/xk-npm-lib/actions/workflows/codeql.yml/badge.svg)
-
+![publish](https://github.com/XK-Z0-XD/xk-npm-lib/actions/workflows/manual.yml/badge.svg)
 
 
 # xk-npm-lib
